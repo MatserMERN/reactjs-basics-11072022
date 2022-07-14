@@ -5,6 +5,7 @@ import { GreetNamed as Desatnick } from "./1.components/1.function/GreetNamed";
 import { GreetOne } from "./1.components/1.function/GreetOne";
 import Welcome from "./1.components/2.class/Welcome";
 import { WelcomeNamed } from "./1.components/2.class/WelcomeNamed";
+import LifiCycleA from "./10.life-cycle-methods/LifiCycleA";
 import Hello from "./2.jsx/Hello";
 import HelloOne from "./2.jsx/HelloOne";
 import Greeting from "./3.props/Greeting";
@@ -15,16 +16,49 @@ import User from "./4.state/User";
 import ClassClick from "./5.event-handling/ClassClick";
 import EventBind from "./5.event-handling/EventBind";
 import FunctionClick from "./5.event-handling/FunctionClick";
+import Parent from "./5.event-handling/parent-child/Parent";
+import UserGreeting from "./6.condtional-rendering/UserGreeting";
+import UserGreetingOne from "./6.condtional-rendering/UserGreetingOne";
+import UserGreetingThree from "./6.condtional-rendering/UserGreetingThree";
+import UserGreetingTwo from "./6.condtional-rendering/UserGreetingTwo";
+import NameListFive from "./7.list-rendering/NameListFive";
+import NameListFour from "./7.list-rendering/NameListFour";
+import NameListOne from "./7.list-rendering/NameListOne";
+import NameListSix from "./7.list-rendering/NameListSix";
+import NameListThree from "./7.list-rendering/NameListThree";
+import NameListTwo from "./7.list-rendering/NameListTwo";
+import AppStyles from "./8.styling/AppStyles";
+import Inline from "./8.styling/Inline";
+import Stylesheet from "./8.styling/Stylesheet";
+import UserForm from "./9.form-handling/UserForm";
+import UserFormOne from "./9.form-handling/UserFormOne";
 
 const Test = () => <h1>Test Component</h1>
 
 function App() {
-  function getMessage(){
-    return "Welcome to props in ReactJS"
-  }
+  // function getMessage(){
+  //   return "Welcome to props in ReactJS"
+  // }
   return (
     <div className="container">
-      <EventBind />
+      <LifiCycleA />
+      {/* <UserFormOne /> */}
+      {/* <UserForm /> */}
+      {/* <AppStyles /> */}
+      {/* <Inline /> */}
+      {/* <Stylesheet primary={false}/> */}
+      {/* <NameListSix /> */}
+      {/* <NameListFive /> */}
+      {/* <NameListFour /> */}
+      {/* <NameListThree /> */}
+      {/* <NameListTwo /> */}
+      {/* <NameListOne /> */}
+      {/* <UserGreetingThree /> */}
+      {/* <UserGreetingTwo /> */}
+      {/* <UserGreetingOne /> */}
+      {/* <UserGreeting /> */}
+      {/* <Parent /> */}
+      {/* <EventBind /> */}
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <User /> */}

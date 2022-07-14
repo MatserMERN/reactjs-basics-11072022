@@ -121,7 +121,7 @@ constructor - A special function that will get called whenever
 
       When not use ?
       ---------------
-      When Making HTTP requests
+      When Making Ajax / HTTP Calls
 
       Two Imporant things
       --------------------

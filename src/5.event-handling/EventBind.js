@@ -8,6 +8,7 @@ class EventBind extends Component {
             message: "Hello"
         }
 
+        this.state.message ="How are you ?"
         //3rd way 
         //this.clickHandler = this.clickHandler.bind(this)
     }
