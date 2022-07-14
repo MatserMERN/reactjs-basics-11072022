@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Scott from "./1.components/1.function/Greet";
+import GreetFatArrow from "./1.components/1.function/GreetFatArrow";
+import { GreetNamed as Desatnick } from "./1.components/1.function/GreetNamed";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Scott />
+      <Desatnick />
+      <GreetFatArrow />
     </div>
   );
 }
