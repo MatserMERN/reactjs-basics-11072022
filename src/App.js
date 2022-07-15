@@ -6,6 +6,11 @@ import { GreetOne } from "./1.components/1.function/GreetOne";
 import Welcome from "./1.components/2.class/Welcome";
 import { WelcomeNamed } from "./1.components/2.class/WelcomeNamed";
 import LifiCycleA from "./10.life-cycle-methods/LifiCycleA";
+import CommentsAPI from "./11.ajax-calls/CommentsAPI";
+import PersonAPI from "./11.ajax-calls/PersonAPI";
+import PhotosAPI from "./11.ajax-calls/PhotosAPI";
+import PostsAPI from "./11.ajax-calls/PostsAPI";
+import UsersAPI from "./11.ajax-calls/UsersAPI";
 import Hello from "./2.jsx/Hello";
 import HelloOne from "./2.jsx/HelloOne";
 import Greeting from "./3.props/Greeting";
@@ -41,7 +46,12 @@ function App() {
   // }
   return (
     <div className="container">
-      <LifiCycleA />
+      <PersonAPI />
+      {/* <UsersAPI /> */}
+      {/* <PhotosAPI /> */}
+      {/* <CommentsAPI /> */}
+      {/* <PostsAPI /> */}
+      {/* <LifiCycleA /> */}
       {/* <UserFormOne /> */}
       {/* <UserForm /> */}
       {/* <AppStyles /> */}
