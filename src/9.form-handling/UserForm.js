@@ -67,7 +67,7 @@ export class UserForm extends Component {
 
     render() {
         return (
-            <div>
+            <div  className="container">
                 <h1>User Form</h1>
                 <form>
                     <div>

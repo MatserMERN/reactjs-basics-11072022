@@ -1,3 +1,4 @@
+import ClassCounter from "./13.hooks/ClassCounter";
 import Scott from "./1.components/1.function/Greet";
 import GreetFatArrow from "./1.components/1.function/GreetFatArrow";
 import { GreetFatArrowNamed } from "./1.components/1.function/GreetFatArrowNamed";
@@ -10,7 +11,10 @@ import CommentsAPI from "./11.ajax-calls/CommentsAPI";
 import PersonAPI from "./11.ajax-calls/PersonAPI";
 import PhotosAPI from "./11.ajax-calls/PhotosAPI";
 import PostsAPI from "./11.ajax-calls/PostsAPI";
+import StudentSQLAPI from "./11.ajax-calls/StudentSQLAPI";
+import UserMongoAPI from "./11.ajax-calls/UserMongoAPI";
 import UsersAPI from "./11.ajax-calls/UsersAPI";
+import Routing from "./12.routing/Routing";
 import Hello from "./2.jsx/Hello";
 import HelloOne from "./2.jsx/HelloOne";
 import Greeting from "./3.props/Greeting";
@@ -37,6 +41,13 @@ import Inline from "./8.styling/Inline";
 import Stylesheet from "./8.styling/Stylesheet";
 import UserForm from "./9.form-handling/UserForm";
 import UserFormOne from "./9.form-handling/UserFormOne";
+import FunctionCounter from "./13.hooks/FunctionCounter";
+import HookUsingString from "./13.hooks/HookUsingString";
+import HookUsingObject from "./13.hooks/HookUsingObject";
+import UserAPIUsingHook from "./13.hooks/UserAPIUsingHook";
+import PropDrillingOne from "./13.hooks/PropDrillingOne";
+import PropDrillingTwo from "./13.hooks/PropDrillingTwo";
+import UseRefHook from "./13.hooks/UseRefHook";
 
 const Test = () => <h1>Test Component</h1>
 
@@ -45,8 +56,19 @@ function App() {
   //   return "Welcome to props in ReactJS"
   // }
   return (
-    <div className="container">
-      <PersonAPI />
+    <div>
+      <UseRefHook />
+      {/* <PropDrillingTwo /> */}
+      {/* <PropDrillingOne /> */}
+      {/* <UserAPIUsingHook /> */}
+      {/* <HookUsingObject /> */}
+      {/* <HookUsingString /> */}
+      {/* <FunctionCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <UserMongoAPI /> */}
+      {/* <StudentSQLAPI /> */}
+      {/* <PersonAPI /> */}
       {/* <UsersAPI /> */}
       {/* <PhotosAPI /> */}
       {/* <CommentsAPI /> */}
@@ -74,7 +96,7 @@ function App() {
       {/* <User /> */}
       {/* <Message /> */}
       {/* <Counter /> */}
-      {/* <Greeting id={1} 
+       {/* <Greeting id={1} 
                 name="Scott" 
                 skill="Great Boss" 
                 isAdmin={true}
@@ -87,9 +109,9 @@ function App() {
                 subjects={["Agile", "JavaScript", "ReactJS"]}
       >
         <p style={{display: "inline"}}>This is child component</p>
-      </Greeting>
-      <br />
-      <GreetingOne id={1} 
+      </Greeting> 
+      <br /> */}
+     {/* <GreetingOne id={1} 
                 name="Scott" 
                 skill="Great Boss" 
                 isAdmin={true}

@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useRef} from 'react'
 
 const Greeting = (props) => {
     console.log(props)
+    console.log(useRef(0))
 const {id, name, skill, isAdmin, department, batch, address, getMessage, sayHello, getDisplay, subjects, children} = props
   return (
-    <div>
+    <div  className="container">
         <h2>Id : {id}</h2>
         <h2>Name : {name}</h2>
         <h2>Skill : {skill}</h2>
